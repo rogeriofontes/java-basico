@@ -1,3 +1,6 @@
+import domain.ClienteFisico;
+import domain.ClienteJuridico;
+
 public class CadastrarCliente {
     public static void main(String[] args) {
         ClienteFisico rogerioPessoaFisica = new ClienteFisico();

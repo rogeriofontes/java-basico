@@ -1,3 +1,5 @@
+package domain;
+
 public class ClienteFisico extends Cliente {
     private String nomw;
     private String cpf;
@@ -20,7 +22,7 @@ public class ClienteFisico extends Cliente {
 
     @Override
     public String toString() {
-        return "ClienteFisico{" +
+        return "domain.ClienteFisico{" +
                 "nomw='" + nomw + '\'' +
                 ", cpf='" + cpf + '\'' +
                 '}';

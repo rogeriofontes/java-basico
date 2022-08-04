@@ -1,3 +1,5 @@
+package domain;
+
 public class ClienteJuridico extends Cliente  {
     private String razaoSocial;
     private String cnpj;

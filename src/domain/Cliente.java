@@ -1,3 +1,4 @@
+package domain;
 
 public abstract class Cliente {
     private Long id;
