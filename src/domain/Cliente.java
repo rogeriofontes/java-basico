@@ -28,4 +28,6 @@ public abstract class Cliente {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
+    public abstract boolean validarNumeroDocument();
 }

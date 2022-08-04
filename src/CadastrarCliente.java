@@ -12,7 +12,7 @@ public class CadastrarCliente {
 
         rogerioPessoaFisica.setId(1l);
         rogerioPessoaFisica.setNomw("Rogerio");
-        rogerioPessoaFisica.setCpf("cpf");
+        rogerioPessoaFisica.setCpf("12345678901");
         rogerioPessoaFisica.setEndereco("endereco");
         rogerioPessoaFisica.setEmail("root@local");
 
@@ -26,7 +26,7 @@ public class CadastrarCliente {
 
         rogerioPessoaJuridico.setId(1l);
         rogerioPessoaJuridico.setRazaoSocial("Rogerio");
-        rogerioPessoaJuridico.setCnpj("cpf");
+        rogerioPessoaJuridico.setCnpj("12345678901234");
         rogerioPessoaJuridico.setEndereco("endereco");
         rogerioPessoaJuridico.setEmail("root@local");
 

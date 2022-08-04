@@ -10,8 +10,8 @@ public class ClienteJuridicoService {
     List<ClienteJuridico> clienteJuridicoList = new ArrayList<>();
 
     public void salvar(ClienteJuridico clienteJuridico) {
-        if (clienteJuridico.getCnpj().length() != 14) {
-            System.out.println("Ele nao ẽ cpf");
+        if (!clienteJuridico.validarNumeroDocument()) {
+            System.out.println("Ele nao ẽ CNPJ");
         }
 
         clienteJuridicoList.add(clienteJuridico);

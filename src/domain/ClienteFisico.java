@@ -27,4 +27,13 @@ public class ClienteFisico extends Cliente {
                 ", cpf='" + cpf + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean validarNumeroDocument() {
+        if (cpf.length() != 11) {
+            return false;
+        }
+
+        return true;
+    }
 }
