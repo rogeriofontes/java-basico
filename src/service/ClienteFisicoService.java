@@ -9,6 +9,10 @@ public class ClienteFisicoService {
     List<ClienteFisico> clienteFisicoList = new ArrayList<>();
 
     public void salvar(ClienteFisico clienteFisico) {
+        if (clienteFisico.getCpf().length() != 11) {
+            System.out.println("Ele nao ẽ cpf");
+        }
+
         clienteFisicoList.add(clienteFisico);
     }
 }
